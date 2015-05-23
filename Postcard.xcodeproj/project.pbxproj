@@ -13,6 +13,8 @@
 		687394E91B105C89000DB388 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687394E81B105C89000DB388 /* Images.xcassets */; };
 		687394EC1B105C89000DB388 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687394EA1B105C89000DB388 /* LaunchScreen.xib */; };
 		687394F81B105C89000DB388 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687394F71B105C89000DB388 /* PostcardTests.swift */; };
+		687395021B106582000DB388 /* IMG_5359.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 687395011B106582000DB388 /* IMG_5359.JPG */; };
+		687395041B10690A000DB388 /* IMG_5350.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 687395031B10690A000DB388 /* IMG_5350.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		687394F11B105C89000DB388 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		687394F61B105C89000DB388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		687394F71B105C89000DB388 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		687395011B106582000DB388 /* IMG_5359.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_5359.JPG; sourceTree = "<group>"; };
+		687395031B10690A000DB388 /* IMG_5350.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_5350.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		687394DF1B105C89000DB388 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				687395031B10690A000DB388 /* IMG_5350.JPG */,
+				687395011B106582000DB388 /* IMG_5359.JPG */,
 				687394E01B105C89000DB388 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				687394E71B105C89000DB388 /* Main.storyboard in Resources */,
+				687395021B106582000DB388 /* IMG_5359.JPG in Resources */,
+				687395041B10690A000DB388 /* IMG_5350.JPG in Resources */,
 				687394EC1B105C89000DB388 /* LaunchScreen.xib in Resources */,
 				687394E91B105C89000DB388 /* Images.xcassets in Resources */,
 			);
