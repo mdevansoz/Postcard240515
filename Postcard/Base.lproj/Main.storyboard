@@ -74,51 +74,62 @@
                                     <rect key="frame" x="16" y="245" width="281" height="30"/>
                                 </variation>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ERn-t0-Zq7">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" red="1" green="0.84001329398897862" blue="0.15567936327733722" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Send Mail"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="166" width="176" height="30"/>
-                                </variation>
-                                <connections>
-                                    <action selector="sendEmailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BsK-Iv-rdu"/>
-                                </connections>
-                            </button>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j3D-p7-hJv">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="72" width="176" height="86"/>
+                                    <rect key="frame" x="16" y="72" width="184" height="55"/>
                                 </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_5350.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="rBX-5w-f3C">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="200" y="80" width="97" height="116"/>
+                                    <rect key="frame" x="211" y="84" width="86" height="115"/>
                                 </variation>
                             </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ufq-yU-DZj">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="135" width="187" height="30"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ERn-t0-Zq7">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.84001329398897862" blue="0.15567936327733722" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Send Mail"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="169" width="187" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="sendEmailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BsK-Iv-rdu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="NBp-F0-Q16"/>
                                 <exclude reference="rU6-gB-IW8"/>
-                                <exclude reference="ERn-t0-Zq7"/>
                                 <exclude reference="j3D-p7-hJv"/>
                                 <exclude reference="rBX-5w-f3C"/>
+                                <exclude reference="ufq-yU-DZj"/>
+                                <exclude reference="ERn-t0-Zq7"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="NBp-F0-Q16"/>
                                 <include reference="rU6-gB-IW8"/>
-                                <include reference="ERn-t0-Zq7"/>
                                 <include reference="j3D-p7-hJv"/>
                                 <include reference="rBX-5w-f3C"/>
+                                <include reference="ufq-yU-DZj"/>
+                                <include reference="ERn-t0-Zq7"/>
                             </mask>
                         </variation>
                     </view>
@@ -126,6 +137,7 @@
                         <outlet property="entermessageTextField" destination="rU6-gB-IW8" id="gfi-uY-bvB"/>
                         <outlet property="mailButton" destination="ERn-t0-Zq7" id="arm-Y3-wUp"/>
                         <outlet property="messageLabel" destination="j3D-p7-hJv" id="7KH-8h-AoR"/>
+                        <outlet property="nameLabel" destination="ufq-yU-DZj" id="vwQ-xP-Jyl"/>
                         <outlet property="nameTextField" destination="NBp-F0-Q16" id="y53-Y7-fZ8"/>
                     </connections>
                 </viewController>
